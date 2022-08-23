@@ -9,6 +9,7 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.decomposition import PCA
 
 
+
 def breast_cancer(training_size, test_size, n, PLOT_DATA=True):
     class_labels = [r'Benign', r'Malignant']
     
